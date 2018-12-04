@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1182A50D219E0B8000722FB2 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1182A50C219E0B7F00722FB2 /* MultipeerConnectivity.framework */; };
+		11C99F5B219DFE0D00FA3121 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C99F5A219DFE0D00FA3121 /* AppDelegate.m */; };
+		11C99F5E219DFE0D00FA3121 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C99F5D219DFE0D00FA3121 /* ViewController.m */; };
+		11C99F61219DFE0E00FA3121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C99F5F219DFE0E00FA3121 /* Main.storyboard */; };
+		11C99F63219DFE1E00FA3121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11C99F62219DFE1E00FA3121 /* Assets.xcassets */; };
+		11C99F66219DFE1E00FA3121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C99F64219DFE1E00FA3121 /* LaunchScreen.storyboard */; };
+		11C99F69219DFE1E00FA3121 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C99F68219DFE1E00FA3121 /* main.m */; };
+		11C99F73219DFE1E00FA3121 /* PeerMotionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C99F72219DFE1E00FA3121 /* PeerMotionUITests.m */; };
+		11C99F7F219DFE7200FA3121 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C99F7E219DFE7200FA3121 /* CoreMotion.framework */; };
+		11C99F81219DFE8E00FA3121 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C99F80219DFE8E00FA3121 /* CoreGraphics.framework */; };
+		11C99F83219DFE9700FA3121 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C99F82219DFE9700FA3121 /* Foundation.framework */; };
+		11C99F85219DFEA400FA3121 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C99F84219DFEA400FA3121 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11C99F6F219DFE1E00FA3121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11C99F4E219DFE0D00FA3121 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11C99F55219DFE0D00FA3121;
+			remoteInfo = PeerMotion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1182A50C219E0B7F00722FB2 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		11C99F56219DFE0D00FA3121 /* PeerMotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeerMotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11C99F59219DFE0D00FA3121 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11C99F5A219DFE0D00FA3121 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11C99F5C219DFE0D00FA3121 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		11C99F5D219DFE0D00FA3121 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		11C99F60219DFE0E00FA3121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11C99F62219DFE1E00FA3121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11C99F65219DFE1E00FA3121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11C99F67219DFE1E00FA3121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11C99F68219DFE1E00FA3121 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11C99F6E219DFE1E00FA3121 /* PeerMotionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeerMotionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11C99F72219DFE1E00FA3121 /* PeerMotionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeerMotionUITests.m; sourceTree = "<group>"; };
+		11C99F74219DFE1E00FA3121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11C99F7E219DFE7200FA3121 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		11C99F80219DFE8E00FA3121 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		11C99F82219DFE9700FA3121 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		11C99F84219DFEA400FA3121 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11C99F53219DFE0D00FA3121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1182A50D219E0B8000722FB2 /* MultipeerConnectivity.framework in Frameworks */,
+				11C99F85219DFEA400FA3121 /* UIKit.framework in Frameworks */,
+				11C99F83219DFE9700FA3121 /* Foundation.framework in Frameworks */,
+				11C99F81219DFE8E00FA3121 /* CoreGraphics.framework in Frameworks */,
+				11C99F7F219DFE7200FA3121 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11C99F6B219DFE1E00FA3121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11C99F4D219DFE0D00FA3121 = {
+			isa = PBXGroup;
+			children = (
+				11C99F58219DFE0D00FA3121 /* PeerMotion */,
+				11C99F71219DFE1E00FA3121 /* PeerMotionUITests */,
+				11C99F57219DFE0D00FA3121 /* Products */,
+				11C99F7D219DFE7100FA3121 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		11C99F57219DFE0D00FA3121 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11C99F56219DFE0D00FA3121 /* PeerMotion.app */,
+				11C99F6E219DFE1E00FA3121 /* PeerMotionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11C99F58219DFE0D00FA3121 /* PeerMotion */ = {
+			isa = PBXGroup;
+			children = (
+				11C99F59219DFE0D00FA3121 /* AppDelegate.h */,
+				11C99F5A219DFE0D00FA3121 /* AppDelegate.m */,
+				11C99F5C219DFE0D00FA3121 /* ViewController.h */,
+				11C99F5D219DFE0D00FA3121 /* ViewController.m */,
+				11C99F5F219DFE0E00FA3121 /* Main.storyboard */,
+				11C99F62219DFE1E00FA3121 /* Assets.xcassets */,
+				11C99F64219DFE1E00FA3121 /* LaunchScreen.storyboard */,
+				11C99F67219DFE1E00FA3121 /* Info.plist */,
+				11C99F68219DFE1E00FA3121 /* main.m */,
+			);
+			path = PeerMotion;
+			sourceTree = "<group>";
+		};
+		11C99F71219DFE1E00FA3121 /* PeerMotionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11C99F72219DFE1E00FA3121 /* PeerMotionUITests.m */,
+				11C99F74219DFE1E00FA3121 /* Info.plist */,
+			);
+			path = PeerMotionUITests;
+			sourceTree = "<group>";
+		};
+		11C99F7D219DFE7100FA3121 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1182A50C219E0B7F00722FB2 /* MultipeerConnectivity.framework */,
+				11C99F84219DFEA400FA3121 /* UIKit.framework */,
+				11C99F82219DFE9700FA3121 /* Foundation.framework */,
+				11C99F80219DFE8E00FA3121 /* CoreGraphics.framework */,
+				11C99F7E219DFE7200FA3121 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11C99F55219DFE0D00FA3121 /* PeerMotion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11C99F77219DFE1E00FA3121 /* Build configuration list for PBXNativeTarget "PeerMotion" */;
+			buildPhases = (
+				11C99F52219DFE0D00FA3121 /* Sources */,
+				11C99F53219DFE0D00FA3121 /* Frameworks */,
+				11C99F54219DFE0D00FA3121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeerMotion;
+			productName = PeerMotion;
+			productReference = 11C99F56219DFE0D00FA3121 /* PeerMotion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11C99F6D219DFE1E00FA3121 /* PeerMotionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11C99F7A219DFE1E00FA3121 /* Build configuration list for PBXNativeTarget "PeerMotionUITests" */;
+			buildPhases = (
+				11C99F6A219DFE1E00FA3121 /* Sources */,
+				11C99F6B219DFE1E00FA3121 /* Frameworks */,
+				11C99F6C219DFE1E00FA3121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11C99F70219DFE1E00FA3121 /* PBXTargetDependency */,
+			);
+			name = PeerMotionUITests;
+			productName = PeerMotionUITests;
+			productReference = 11C99F6E219DFE1E00FA3121 /* PeerMotionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11C99F4E219DFE0D00FA3121 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = MB;
+				TargetAttributes = {
+					11C99F55219DFE0D00FA3121 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					11C99F6D219DFE1E00FA3121 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 11C99F55219DFE0D00FA3121;
+					};
+				};
+			};
+			buildConfigurationList = 11C99F51219DFE0D00FA3121 /* Build configuration list for PBXProject "PeerMotion" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11C99F4D219DFE0D00FA3121;
+			productRefGroup = 11C99F57219DFE0D00FA3121 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11C99F55219DFE0D00FA3121 /* PeerMotion */,
+				11C99F6D219DFE1E00FA3121 /* PeerMotionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11C99F54219DFE0D00FA3121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C99F66219DFE1E00FA3121 /* LaunchScreen.storyboard in Resources */,
+				11C99F63219DFE1E00FA3121 /* Assets.xcassets in Resources */,
+				11C99F61219DFE0E00FA3121 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11C99F6C219DFE1E00FA3121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11C99F52219DFE0D00FA3121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C99F5E219DFE0D00FA3121 /* ViewController.m in Sources */,
+				11C99F69219DFE1E00FA3121 /* main.m in Sources */,
+				11C99F5B219DFE0D00FA3121 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11C99F6A219DFE1E00FA3121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C99F73219DFE1E00FA3121 /* PeerMotionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11C99F70219DFE1E00FA3121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11C99F55219DFE0D00FA3121 /* PeerMotion */;
+			targetProxy = 11C99F6F219DFE1E00FA3121 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11C99F5F219DFE0E00FA3121 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11C99F60219DFE0E00FA3121 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11C99F64219DFE1E00FA3121 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11C99F65219DFE1E00FA3121 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11C99F75219DFE1E00FA3121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		11C99F76219DFE1E00FA3121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11C99F78219DFE1E00FA3121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SQRPHULJQ;
+				INFOPLIST_FILE = PeerMotion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = comp4768.cs.mun.ca.PeerMotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11C99F79219DFE1E00FA3121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SQRPHULJQ;
+				INFOPLIST_FILE = PeerMotion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = comp4768.cs.mun.ca.PeerMotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11C99F7B219DFE1E00FA3121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SQRPHULJQ;
+				INFOPLIST_FILE = PeerMotionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = comp4768.cs.mun.ca.PeerMotionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PeerMotion;
+			};
+			name = Debug;
+		};
+		11C99F7C219DFE1E00FA3121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SQRPHULJQ;
+				INFOPLIST_FILE = PeerMotionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = comp4768.cs.mun.ca.PeerMotionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PeerMotion;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11C99F51219DFE0D00FA3121 /* Build configuration list for PBXProject "PeerMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11C99F75219DFE1E00FA3121 /* Debug */,
+				11C99F76219DFE1E00FA3121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11C99F77219DFE1E00FA3121 /* Build configuration list for PBXNativeTarget "PeerMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11C99F78219DFE1E00FA3121 /* Debug */,
+				11C99F79219DFE1E00FA3121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11C99F7A219DFE1E00FA3121 /* Build configuration list for PBXNativeTarget "PeerMotionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11C99F7B219DFE1E00FA3121 /* Debug */,
+				11C99F7C219DFE1E00FA3121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11C99F4E219DFE0D00FA3121 /* Project object */;
+}
